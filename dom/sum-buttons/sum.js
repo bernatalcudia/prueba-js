@@ -30,8 +30,6 @@ function sumNumbers(event) {
 
 }
 
-
-
 buttonAdd.addEventListener('click', addNumbers);
 buttonSum.addEventListener('click', sumNumbers);
 inputBox.addEventListener('keydown', (event) => {
