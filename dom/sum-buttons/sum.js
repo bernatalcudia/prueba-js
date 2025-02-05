@@ -17,7 +17,6 @@ function addNumbers(event) {
     li.innerText = 'Number ' + numbers
     unOrderList.appendChild(li);
     document.body.appendChild(unOrderList)
-    console.log(total)
     inputBox.value = '';
 
 }
