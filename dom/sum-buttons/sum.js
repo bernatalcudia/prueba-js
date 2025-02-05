@@ -36,5 +36,7 @@ inputBox.addEventListener('keydown', (event) => {
         inputBox.value = '';
         h1.innerText = '';
         unOrderList.innerText = '';
+    } if (event.key === 'Enter') {
+        addNumbers(event);
     }
 });
