@@ -2,7 +2,7 @@ const inputBox = document.getElementById('input-box');
 const buttonAdd = document.getElementById('button-add');
 const buttonSum = document.getElementById('button-sum');
 const unOrderList = document.createElement('ul');
-const h1 = document.createElement('h1')
+const h1 = document.createElement('h1');
 
 let total = 0;
 
@@ -11,14 +11,13 @@ buttonSum.innerText = 'Calc';
 
 function addNumbers(event) {
     event.preventDefault();
-    const numbers = parseInt(inputBox.value)
+    const numbers = parseInt(inputBox.value);
     total += numbers;
-    const li = document.createElement('li')
-    li.innerText = 'Number ' + numbers
+    const li = document.createElement('li');
+    li.innerText = 'Number ' + numbers;
     unOrderList.appendChild(li);
-    document.body.appendChild(unOrderList)
+    document.body.appendChild(unOrderList);
     inputBox.value = '';
-
 }
 
 function sumNumbers(event) {
