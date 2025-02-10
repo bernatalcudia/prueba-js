@@ -1,0 +1,57 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+
+    background-color: whitesmoke;
+}
+
+
+
+#box-content {
+    background-color: white;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: space-around;
+
+    gap: 1rem;
+    border: whitesmoke solid 1px;
+    border-radius: 1rem;
+    padding: 1rem;
+
+}
+
+#address-section {}
+
+#title {
+    margin-top: -0.2rem;
+    font-size: 1.2rem;
+}
+
+#address {
+    margin-bottom: 40px;
+    padding: 0.6rem;
+    border: 2px solid rgb(243, 232, 232);
+    border-radius: 0.6rem;
+}
+
+#submit-section {}
+
+#submit {
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    border: red;
+    border-radius: 0.6rem;
+    width: 100%;
+    padding: 0.6rem;
+}
+
+#text {
+    font-size: 0.9rem;
+}
