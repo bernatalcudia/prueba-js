@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+}
+
+#article {
+    gap: 1rem;
+    display: flex;
+    flex-flow: row;
+    background-color: whitesmoke;
+}
+
+#section-1 {
+    gap: 0.3rem;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+#section-2 {
+
+    gap: 0.3rem;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+#input-name {
+    border: violet solid 3px;
+}
+
+#input-email {
+    border: blue solid 3px;
+}
+
+#input-number {
+    border: blueviolet solid 3px;
+}
+
+#button-ad {
+    color: white;
+    background-color: red;
+    width: 100%;
+}
