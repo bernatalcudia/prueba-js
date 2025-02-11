@@ -5,11 +5,13 @@ const inputNumber = document.getElementById("input-number");
 const sectionTwo = document.getElementById("section-2");
 
 
-const button = document.getElementById("button");
+const buttonAdd = document.getElementById("button-add");
+const buttonDelete = document.getElementById("button-delete");
 
-button.innerText = "Add";
+buttonAdd.innerText = "Add";
+buttonDelete.innerText = "Delete";
 
-button.setAttribute("id", "button-ad")
+buttonAdd.setAttribute("id", "button-ad")
 
 
 const unOrderList = document.createElement("ul");
@@ -35,12 +37,15 @@ function addContact() {
     inputName.value = "";
     inputEmail.value = "";
     inputNumber.value = "";
+}
 
-
+function deleteList() {
+    unOrderList.remove();
 }
 
 
-button.addEventListener("click", addContact);
+buttonAdd.addEventListener("click", addContact);
+buttonDelete.addEventListener("click", deleteList);
 
 
 
